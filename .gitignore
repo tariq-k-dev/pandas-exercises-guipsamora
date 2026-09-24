@@ -1,4 +1,18 @@
-.ipynb_checkpoints
-.Rproj
-.Rproj.user
-.python
+# Python / Virtual Environment
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# uv configuration (Optional)
+# Keep uv.lock committed to git if you want reproducible environments across machines!
+# But ignore local tool cache artifacts if they pop up
+.uv/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
